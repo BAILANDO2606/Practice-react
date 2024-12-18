@@ -33,10 +33,28 @@ function Footer() {
 							</li>
 						</ul>
 					</div>
-					<div className='col-md-4'>
+					<div id='contact-phone' className='col-md-4'>
 						<h5>Контакти</h5>
-						<p>Телефон: +38 (050) 123-45-67</p>
-						<p>Email: info@mobile.com</p>
+						<p>
+							<a
+								href='https://www.facebook.com/mobile.kolomyya'
+								className='text-light text-decoration-none'
+							>
+								Facebook
+							</a>
+						</p>
+						<p>Телефон: +38 (096) 566-16-67</p>
+						<p>Адреса магазину: площа Шевченка, 22, Коломия</p>
+					</div>
+				</div>
+				<div className='row mt-4'>
+					<div className='col-md-4'>
+						<h5>Графік роботи</h5>
+						<ul className='list-unstyled'>
+							<li>Понеділок – П’ятниця: 09:00 – 18:00</li>
+							<li>Субота: 09:00 – 16:00</li>
+							<li>Неділя: Вихідний</li>
+						</ul>
 					</div>
 				</div>
 				<div className='row mt-4'>

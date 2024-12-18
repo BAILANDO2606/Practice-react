@@ -6,3 +6,8 @@ footer h5 {
 footer a:hover {
 	color: #f1c40f;
 }
+
+footer .list-unstyled li {
+	color: #bbb;
+	margin-bottom: 0.5rem;
+}

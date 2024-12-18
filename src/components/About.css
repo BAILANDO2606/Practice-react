@@ -51,3 +51,16 @@
 	font-style: italic;
 	color: #666;
 }
+.about-services .card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-services .card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}

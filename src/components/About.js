@@ -89,27 +89,57 @@ function About() {
 
 				{/* Розділ "Наші послуги" */}
 				<div className='about-services my-5'>
-					<h3 className='text-center'>Наші послуги:</h3>
-					<ul className='list-group list-group-flush'>
-						<li className='list-group-item'>
-							📱 Продаж мобільних телефонів (Apple, Samsung, Xiaomi тощо).
-						</li>
-						<li className='list-group-item'>
-							🔧 Ремонт та розблокування пристроїв будь-якої складності.
-						</li>
-						<li className='list-group-item'>
-							🎧 Продаж аксесуарів (чохли, зарядки, навушники, плівки).
-						</li>
-						<li className='list-group-item'>
-							💾 Перенесення даних зі старих телефонів на нові.
-						</li>
-						<li className='list-group-item'>
-							📈 Оцінка та викуп старих телефонів.
-						</li>
-						<li className='list-group-item'>
-							🚚 Доставка замовлень у межах міста.
-						</li>
-					</ul>
+					<h3 className='text-center mb-4'>Наші послуги</h3>
+					<div className='row g-4'>
+						<div className='col-md-4'>
+							<div className='card h-100 text-center border-0 shadow'>
+								<div className='card-body'>
+									<div className='service-icon mb-3'>
+										<i
+											className='bi bi-phone'
+											style={{ fontSize: '2rem', color: '#3498db' }}
+										></i>
+									</div>
+									<h5 className='card-title'>Продаж мобільних телефонів</h5>
+									<p className='card-text'>
+										Apple, Samsung, Xiaomi та інші популярні бренди.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className='col-md-4'>
+							<div className='card h-100 text-center border-0 shadow'>
+								<div className='card-body'>
+									<div className='service-icon mb-3'>
+										<i
+											className='bi bi-tools'
+											style={{ fontSize: '2rem', color: '#e67e22' }}
+										></i>
+									</div>
+									<h5 className='card-title'>Ремонт та розблокування</h5>
+									<p className='card-text'>
+										Виконуємо ремонт будь-якої складності швидко та якісно.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className='col-md-4'>
+							<div className='card h-100 text-center border-0 shadow'>
+								<div className='card-body'>
+									<div className='service-icon mb-3'>
+										<i
+											className='bi bi-headphones'
+											style={{ fontSize: '2rem', color: '#2ecc71' }}
+										></i>
+									</div>
+									<h5 className='card-title'>Продаж аксесуарів</h5>
+									<p className='card-text'>
+										Чохли, зарядки, навушники, захисні плівки тощо.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				{/* Розділ "Наша команда" */}
