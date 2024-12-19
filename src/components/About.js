@@ -293,6 +293,32 @@ function About() {
 						</div>
 					</div>
 				</div>
+				<div className='review d-flex align-items-center justify-content-center mb-4'>
+					<img
+						src='https://randomuser.me/api/portraits/men/14.jpg'
+						alt='Олег'
+						className='review-avatar rounded-circle me-3'
+					/>
+					<div>
+						<p className='review-text mb-2'>
+							Магазин 'Мобайл' – це справжній рай для любителів техніки! Купував
+							телефон і отримав якісну консультацію та знижку. Дуже задоволений!
+						</p>
+						<div className='review-footer d-flex align-items-center'>
+							<div className='review-name me-3'>Григорій</div>
+							<div className='review-rating'>
+								{[...Array(5)].map((_, index) => (
+									<span
+										key={index}
+										className={`star ${index < 3 ? 'filled' : ''}`}
+									>
+										★
+									</span>
+								))}
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	)
