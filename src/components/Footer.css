@@ -8,6 +8,12 @@ footer a:hover {
 }
 
 footer .list-unstyled li {
-	color: #bbb;
+	color: #ccc;
 	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+}
+
+footer .list-unstyled li::before {
+	content: '• ';
+	color: #f1c40f;
 }

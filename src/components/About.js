@@ -278,7 +278,7 @@ function About() {
 								задоволений!
 							</p>
 							<div className='review-footer d-flex align-items-center'>
-								<div className='review-name me-3'>Віта</div>
+								<div className='review-name me-3'>Віталій</div>
 								<div className='review-rating'>
 									{[...Array(5)].map((_, index) => (
 										<span

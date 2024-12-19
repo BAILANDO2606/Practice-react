@@ -7,13 +7,6 @@ function Footer() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-md-4'>
-						<h5>Про нас</h5>
-						<p>
-							Магазин "Мобайл" — ваш надійний партнер у світі мобільних
-							технологій. Ми надаємо якісні послуги та сертифіковані товари.
-						</p>
-					</div>
-					<div className='col-md-4'>
 						<h5>Корисні посилання</h5>
 						<ul className='list-unstyled'>
 							<li>
@@ -46,14 +39,12 @@ function Footer() {
 						<p>Телефон: +38 (096) 566-16-67</p>
 						<p>Адреса магазину: площа Шевченка, 22, Коломия</p>
 					</div>
-				</div>
-				<div className='row mt-4'>
 					<div className='col-md-4'>
 						<h5>Графік роботи</h5>
 						<ul className='list-unstyled'>
-							<li>Понеділок – П’ятниця: 09:00 – 18:00</li>
-							<li>Субота: 09:00 – 16:00</li>
-							<li>Неділя: Вихідний</li>
+							<li>Пн–Пт: 09:00–18:00</li>
+							<li>Сб: 09:00–16:00</li>
+							<li>Нд: Вихідний</li>
 						</ul>
 					</div>
 				</div>
