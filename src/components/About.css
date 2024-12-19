@@ -1,66 +1,173 @@
 .about {
-	background-color: #f7f8fc;
+	background-color: #f7f7f9;
 	color: #333;
+	font-family: 'Roboto', sans-serif;
 }
 
 .about-title {
-	font-size: 2.5rem;
-	color: #2c3e50;
+	font-size: 3rem;
+	color: #212224;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 .about-description {
 	font-size: 1.2rem;
 	line-height: 1.8;
 	color: #555;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.review {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background-color: #fff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 12px 16px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	margin-bottom: 20px;
+}
+
+.review:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 18px 24px rgba(0, 0, 0, 0.15);
+}
+
+.review-avatar {
+	width: 70px;
+	height: 70px;
+	object-fit: cover;
+	border: 3px solid #3498db;
+	margin-right: 20px;
+}
+
+.review-name {
+	font-weight: bold;
+	color: #2c3e50;
+	font-size: 1.1rem;
+}
+
+.review-text {
+	font-size: 1.1rem;
+	color: #555;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.review-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+.review-rating {
+	display: flex;
+}
+
+.star {
+	font-size: 1.5rem;
+	color: #bbb;
+}
+
+.star.filled {
+	color: #f39c12;
+}
+
+.reviews-list {
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.review {
+		padding: 20px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.review-avatar {
+		margin-bottom: 20px;
+	}
+}
+
+.about-features h3 {
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: #212224;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
 }
 
 .about-features ul {
-	font-size: 1rem;
-	margin-top: 1rem;
+	list-style-type: none;
+	padding: 0;
 }
 
 .about-features li {
-	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	color: #333;
+	margin-bottom: 15px;
+	transition: all 0.3s ease;
 }
 
-.about-stats .stat {
-	background-color: #fff;
-	border-radius: 8px;
-	padding: 1rem;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.about-features li:hover {
+	transform: translateX(10px);
+	color: #007bff;
 }
 
-.about-stats .stat h3 {
-	font-size: 2rem;
-	color: #3498db;
+.about-features li i {
+	font-size: 1.5rem;
+	color: #007bff;
+	margin-right: 10px;
 }
 
-.about-services ul {
-	font-size: 1rem;
+.about-features li:hover i {
+	color: #2ecc71;
 }
 
-.about-services .list-group-item {
-	font-size: 1rem;
-}
-
-.about-reviews blockquote {
-	background-color: #fff;
-	padding: 1rem 2rem;
-	border-left: 5px solid #3498db;
-	margin: 1rem 0;
-	font-style: italic;
-	color: #666;
-}
-.about-services .card {
+.card:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-services .card:hover {
-	transform: translateY(-10px);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.service-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .service-icon {
-	font-size: 2.5rem;
-	margin-bottom: 1rem;
+	transition: color 0.3s ease;
+}
+
+.service-card:hover .service-icon i {
+	color: #007bff;
+}
+
+.stat-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.stat-card i {
+	transition: color 0.3s ease;
+}
+
+.stat-card:hover i {
+	color: #007bff;
 }
