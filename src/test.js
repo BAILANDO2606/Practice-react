@@ -120,14 +120,14 @@
 // // // 	console.log(letter, i, array)
 // // // })
 
-// // const prices = [100, 200, 300, 400, 500, 400]
+// const prices = [100, 200, 300, 400, 500, 400]
 
-// // console.log(prices.indexOf(400)) // 3
-// // console.log(prices.indexOf(600)) // -1
-// // console.log(prices.indexOf(400, 4)) // 5
-// // console.log(prices.lastindexOf(400)) // 3
+// console.log(prices.indexOf(400)) // 3
+// console.log(prices.indexOf(600)) // -1
+// console.log(prices.indexOf(400, 4)) // 5
+// console.log(prices.lastIndexOf(400)) // 5
 
-// const users = [
+//const users = [
 // 	{
 // 		names: 'John',
 // 		age: 25,
@@ -143,6 +143,14 @@
 // ]
 
 // console.log(
+//   users.findIndex((user) => user.name === 'Vasya')
+// ) // 2
+
+// console.log(
+//   users.findLastIndex((user) => user.name === 'Vasya')
+// )
+
+// console.log(
 // 	users.findIndex((element, index, array) => {
 // 		if (element.name === 'Vasya') {
 // 			return true
@@ -150,4 +158,79 @@
 // 	})
 // ) // 2
 
-//
+// function buildFun(n) {
+// 	let res = []
+// 	for (let i = 0; i < n; i++) {
+// 		res.push(function () {
+// 			return i
+// 		})
+// 	}
+// 	return res
+// }
+
+// const prices = [100, 200, 300, 400, 500, 400]
+// console.log(prices.includes(400)) // true проверяет наличие элемента в массиве
+
+// const users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 	},
+// ]
+
+// console.log(users.some(user => user.age > 30)) // true проверяет, есть ли хотя бы один элемент, который удовлетворяет условию
+
+// const users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 	},
+// ]
+
+// console.log(users.every(user => user.age >= 18)) // true проверяет, удовлетворяют ли все элементы условию, в данном случае, возраст больше 18
+
+// console.log(users.find(user => user.name === 'Anton')) // {name: 'Anton', age: 30} возвращает первый элемент, который удовлетворяет условию
+
+// console.log(users.filter(user => user.name === 'Anton')) // {name: 'Anton', age: 30} возвращает первый элемент, который удовлетворяет условию
+
+// const users = [
+// 	{
+// 		names: 'John',
+// 		age: 25,
+// 		city: 'New York',
+// 	},
+// 	{
+// 		names: 'Anton',
+// 		age: 45,
+// 		city: 'Chicago',
+// 	},
+// 	{
+// 		names: 'Vasya',
+// 		age: 50,
+// 		city: 'Los Angeles',
+// 	},
+// ]
+
+// const filteredUsers = users.filter(({ city, age }) => {
+// 	return city === 'New York' || age < 45
+// }) // возвращает массив элементов, которые удовлетворяют условию
+
+// function semicolonSeparationToCommaSeparation(input) {
+// 	return input.split(';').join(',')
+// }
