@@ -234,3 +234,71 @@
 // function semicolonSeparationToCommaSeparation(input) {
 // 	return input.split(';').join(',')
 // }
+
+// console.log(semicolonSeparationToCommaSeparation('a;b;c;d;e')) // a,b,c,d,e
+
+// const users = [ 'John', 'Anton', 'Vasya' ]
+
+// console.log(users.map(user => user.toUpperCase())) // ['JOHN', 'ANTON', 'VASYA'] преобразует каждый элемент массива
+
+// function collatz(n, count) {
+//   if (n < 1){
+//     n = (n % 2 === 0) ? n / 2 : n * 3 + 1;
+//     collatz(n, count + 1);
+//     return count;
+//   }
+// }
+
+// let users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 	},
+// ]
+
+// users = users.map(user => {
+// 	return `${user.name}, ${user.age} years old`
+// })
+
+// console.log(users) // ['user John - 25 years old', 'user Anton - 30 years old', 'user Peter - 40 years old']
+
+// const users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 		city: 'New York',
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 		city: 'Chicago',
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 		city: 'Los Angeles',
+// 	},
+// 	{
+// 		name: 'Vasya',
+// 		age: 50,
+// 		city: 'New York',
+// 	},
+// ]
+
+// let ageSum = 0
+
+// for (let i = 0; i < users.length; i++) {
+// 	ageSum += users[i].age
+// }
+
+// return ageSum.floor(ageSum)
+
+// console.log(`Середній вік користувачів: ${ageSum / users.length}`) // Середній вік користувачів: 36.25
