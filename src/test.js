@@ -127,7 +127,7 @@
 // console.log(prices.indexOf(400, 4)) // 5
 // console.log(prices.lastIndexOf(400)) // 5
 
-//const users = [
+// const users = [
 // 	{
 // 		names: 'John',
 // 		age: 25,
@@ -302,3 +302,139 @@
 // return ageSum.floor(ageSum)
 
 // console.log(`Середній вік користувачів: ${ageSum / users.length}`) // Середній вік користувачів: 36.25
+
+// const users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 		city: 'New York',
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 		city: 'Chicago',
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 		city: 'Los Angeles',
+// 	},
+// 	{
+// 		name: 'Vasya',
+// 		age: 50,
+// 		city: 'New York',
+// 	},
+// ]
+
+// let ageSum = users.reduce(
+// 	(sum /*зберігає результат попереднього виклику функції*/, { age }) =>
+// 		sum + age,
+// 	0
+// )
+
+// console.log('Середній вік користувачів:', ageSum / users.length) // Середній вік користувачів: 36.25
+
+// const users = [
+// 	{
+// 		name: 'John',
+// 		age: 25,
+// 		city: 'New York',
+// 	},
+// 	{
+// 		name: 'Anton',
+// 		age: 30,
+// 		city: 'Chicago',
+// 	},
+// 	{
+// 		name: 'Peter',
+// 		age: 40,
+// 		city: 'Los Angeles',
+// 	},
+// 	{
+// 		name: 'Vasya',
+// 		age: 50,
+// 		city: 'New York',
+// 	},
+// ]
+
+// const reversedUsers = users.reverse() // мутуючий метод, змінює початковий масив
+
+// const reversedUsers = [...users].reverse() // не мутуючий метод, не змінює початковий масив
+
+// console.log('Перевернутий масив:', reversedUsers) // Перевернутий масив: [{name: 'Vasya', age: 50, city: 'New York'}, {name: 'Peter', age: 40, city: 'Los Angeles'}, {name: 'Anton', age: 30, city: 'Chicago'}, {name: 'John', age: 25, city: 'New York'}]
+
+// const users = {
+//   name: 'John',
+//   age: 25,
+//   city: 'New York',
+// }
+
+// const userKeys = Object.keys(users) // повертає масив ключів об'єкта
+
+// console.log('userKeys: ', userKeys) // userKeys: ['name', 'age', 'city']
+
+// const users = {
+//   name: 'John',
+//   age: 25,
+//   city: 'New York',
+// }
+
+// const userKeys = Object.values(users) // повертає масив ключів об'єкта
+
+// console.log('userKeys: ', userKeys) // userKeys: ['name', 'age', 'city']
+
+// const users = {
+//   name: 'John',
+//   age: 25,
+//   city: 'New York',
+// }
+
+// const userKeys = Object.entries(users) // повертає масив ключів об'єкта
+
+// console.log('userKeys: ', userKeys) // userKeys: [['name', 'John'], ['age', 25], ['city', 'New York']]
+
+// const users = {
+//   name: 'John',
+//   age: 25,
+//   city: 'New York',
+// }
+
+// const userEntries = Object.entries(users) // повертає масив ключів об'єкта
+
+// const userEntriesFormatted = userEntries.map(([key, value]) => {
+//   return [key.toUpperCase(), `~~${value}~~`]
+// })
+
+// console.log('userEntriesFormatted: ', userEntriesFormatted) // userEntriesFormatted: [['NAME', '~~John~~'], ['AGE', '~~25~~'], ['CITY', '~~New York~~']]
+
+// const data = new Map(
+//   [
+//     [1, 'one'],
+//     ['2', 'two'],
+//   ]
+// ) // створюємо новий об'єкт Map
+
+// const data = new Map()
+
+// data.set('name', undefined) // додаємо новий ключ та значення
+// data.delete('name') // видаляємо ключ та значення
+// data.clear() // видаляє всі ключі та значення
+
+// console.log(data.has('name')) // false
+
+// data.set(1, 'one') // додаємо новий ключ та значення
+// data.set('2', 'two') // додаємо новий ключ та значення
+
+// console.log(data.get(1)) // one
+// console.log(data.get('2')) // two
+
+// let data = (function returnSomeData(time = Date.now()) {
+// 	return {
+// 		name: '__B00013',
+// 		timeStamp: time || 'unknown',
+// 		type: 'raw',
+// 		tep: 0x041451,
+// 		tup: 0x00,
+// 		tap: 0x00040,
+// 	}
+// })()

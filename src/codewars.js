@@ -12,3 +12,17 @@
 // 	arr[0] = arr[1]
 // 	arr[1] = temp
 // }
+
+// function facRecursion(value) {
+// 	if (value < 0) {
+// 		return 0
+// 	}
+// 	if (value === 1 || value === 0) {
+// 		return 1
+// 	}
+// 	return value * facRecursion(value - 1)
+// }
+
+// function integrate(coefficient, exponent) {
+// 	return coefficient / (exponent + 1) + 'x^' + (exponent + 1)
+// }
