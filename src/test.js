@@ -438,3 +438,17 @@
 // 		tap: 0x00040,
 // 	}
 // })()
+
+// const user = {
+// 	name: 'John',
+// 	age: 25,
+// 	city: 'New York',
+// }
+
+// const userEntries = Object.entries(user) // повертає масив ключів об'єкта
+
+// userEntries.forEach(([key, value]) => {
+// 	console.log(`${key}: ${value}`)
+// }) // name: John, age: 25, city: New York
+
+// const userFormatted = Object.fromEntries(userEntries) // повертає об'єкт з масиву ключів
