@@ -452,3 +452,78 @@
 // }) // name: John, age: 25, city: New York
 
 // const userFormatted = Object.fromEntries(userEntries) // повертає об'єкт з масиву ключів
+
+// class Student {
+//   constructor(name, age) {
+//     this.name = name
+//     this.age = age
+//   }
+// }
+
+// const firstStudent = new Student('John', 23) // створюємо новий екземпляр класу Student
+
+// function spEng(sentence) {
+// 	let word = "english"
+// 	if (sentence.toLowerCase().includes(word)) {
+// 		return true
+// 	} else {
+// 		return false
+// 	}
+// }
+
+// let v1 = 50,
+//     v2 = 100,
+//     v3 = 150,
+//     v4 = 200,
+//     v5 = 2,
+//     v6 = 250;
+
+// function equal1(){
+//   let a = v1,
+//       b = v1;
+//   return a + b;
+// }
+
+// //Please refer to the example above to complete the following functions
+// function equal2(){
+//   let a =  v4, //set number value to a
+//       b =  v2; //set number value to b
+//   return a - b;
+// }
+
+// function equal3(){
+//   let a =  v1, //set number value to a
+//       b =  v5; //set number value to b
+//   return a * b;
+// }
+
+// function equal4(){
+//   let a =  v4, //set number value to a
+//       b =  v5; //set number value to b
+//   return a / b;
+// }
+
+// function equal5(){
+//   let a =  v6, //set number value to a
+//       b =  v3; //set number value to b
+//   return a % b;
+// }
+
+// function getDrinkByProfession(param) {
+// 	param = param.toLowerCase()
+// 	if (param === 'Jabroni') {
+// 		return 'Patron Tequila'
+// 	} else if (param === 'School Counselor') {
+// 		return 'Anything with Alcohol'
+// 	} else if (param === 'Programmer') {
+// 		return 'Hipster Craft Beer'
+// 	} else if (param === 'Bike Gang Member') {
+// 		return 'Moonshine'
+// 	} else if (param === 'Politician') {
+// 		return 'Your tax dollars'
+// 	} else if (param === 'Rapper') {
+// 		return 'Cristal'
+// 	} else {
+// 		return 'Beer'
+// 	}
+// }
