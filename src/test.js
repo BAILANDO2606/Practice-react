@@ -527,3 +527,41 @@
 // 		return 'Beer'
 // 	}
 // }
+
+// function getLength(arr) {
+// 	//return length of arr
+// 	return arr.length
+// }
+// function getFirst(arr) {
+// 	//return the first element of arr
+// 	return arr[0]
+// }
+// function getLast(arr) {
+// 	//return the last element of arr
+// 	return arr[arr.length - 1]
+// }
+// function pushElement(arr) {
+// 	var el = 1
+// 	arr.push(el)
+
+// 	return arr
+// }
+// function popElement(arr) {
+// 	arr.pop()
+// 	return arr
+// }
+
+// function grabDoll(dolls) {
+// 	var bag = []
+// 	for (let i = 0; dolls.length; i++) {
+// 		if (dolls[i] === 'Hello Kitty' || dolls[i] === 'Barbie doll') {
+// 			bag.push(dolls[i])
+// 		} else {
+// 			continue
+// 		}
+// 		if (bag.length === 3) {
+// 			break
+// 		}
+// 	}
+// 	return bag
+// }
